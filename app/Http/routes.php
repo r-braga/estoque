@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+Route::get('/', function()
+           {
+               return '<h1>Minha Primeira Página</h1>';
+           });
+Route::get('/produtos', 'ProdutoController@lista');
