@@ -1,0 +1,26 @@
+{
+  "name": "estoque",
+  "version": "0.0.0",
+  "homepage": "https://github.com/r-braga/estoque",
+  "authors": [
+    "Rousseau Lobo Braga <rbraga@fatec-ro.br>"
+  ],
+  "description": "Programa para demonstraçao de acesso ao banco usando o laravel",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resource/assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootstrap-select": "~1.6.4",
+    "font-awesome": "~4.3.0"
+  }
+}
